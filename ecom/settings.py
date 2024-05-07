@@ -2,7 +2,7 @@ import os
 import environ
 
 env = environ.Env()
-
+DEBUG = 'TRUE'
 # read the .env file
 environ.Env.read_env()
 
